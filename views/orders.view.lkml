@@ -15,6 +15,7 @@ view: orders {
   dimension: status {
     type: string
     sql: ${TABLE}.status ;;
+    drill_fields: [users.id]
   }
   dimension: user_id {
     type: number
