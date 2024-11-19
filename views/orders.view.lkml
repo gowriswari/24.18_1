@@ -20,6 +20,7 @@ view: orders {
     type: number
     # hidden: yes
     sql: ${TABLE}.user_id ;;
+    drill_fields: [users.status, users.name]
   }
 
   measure: count {
