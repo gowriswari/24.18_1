@@ -13,6 +13,7 @@ view: flights {
   dimension: cancelled {
     type: string
     sql: ${TABLE}.cancelled ;;
+    hidden: yes
   }
   dimension: carrier {
     type: string
