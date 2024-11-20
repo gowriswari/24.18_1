@@ -13,11 +13,12 @@ view: flights {
   dimension: cancelled {
     type: string
     sql: ${TABLE}.cancelled ;;
-    hidden: yes
+    hidden: no
   }
   dimension: carrier {
     type: string
     sql: ${TABLE}.carrier ;;
+    hidden: yes
   }
   dimension: dep_delay {
     type: number
