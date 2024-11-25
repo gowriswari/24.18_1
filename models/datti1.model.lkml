@@ -4,6 +4,7 @@ connection: "thelook"
 include: "/views/**/*.view.lkml"
 include: "/ja.strings.json"
 #include: "/manifest.lkml"
+include: "/Lookml_test.dashboard.lookml"
 
 datagroup: datti1_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
