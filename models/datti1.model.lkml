@@ -259,7 +259,12 @@ explore: test_space_in_column_name {}
 
 explore: thor {}
 
-explore: users {}
+explore: users {
+  access_filter: {
+    field: city
+    user_attribute: test_filter
+  }
+}
 
 explore: user_data {
   join: users {
