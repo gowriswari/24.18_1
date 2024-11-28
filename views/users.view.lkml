@@ -28,6 +28,7 @@ view: users {
   dimension: email {
     type: string
     sql: ${TABLE}.email ;;
+    hidden: yes
   }
   dimension: first_name {
     type: string
@@ -37,7 +38,6 @@ view: users {
   dimension: gender {
     type: string
     sql: ${TABLE}.gender ;;
-    hidden: yes
   }
   dimension: last_name {
     type: string
