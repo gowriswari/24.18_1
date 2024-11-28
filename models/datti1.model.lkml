@@ -5,6 +5,7 @@ include: "/views/**/*.view.lkml"
 include: "/ja.strings.json"
 #include: "/manifest.lkml"
 include: "/Lookml_test.dashboard.lookml"
+include: "/views/native_derived_tabale.view.lkml"
 
 datagroup: datti1_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
@@ -273,6 +274,7 @@ explore: user_data {
     relationship: many_to_one
   }
 }
+explore: native_derived_table {}
 
 explore: viet {}
 
