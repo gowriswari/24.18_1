@@ -19,6 +19,10 @@ view: users {
     type: string
     map_layer_name: countries
     sql: ${TABLE}.country ;;
+    link: {
+      label: "dresses"
+      url: "https://www.google.com/search?q=dresses"
+    }
   }
   dimension_group: created {
     type: time
